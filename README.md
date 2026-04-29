@@ -17,7 +17,7 @@ ecommerce/
     ├── models/                ← Rust Struct Represent data
     │   ├── mod.rs
     │   └── product.rs
-    ├── repositories/          ← DB acces (queries)
+    ├── repositories/          ← DB accest (queries)
     │   ├── mod.rs
     │   └── product_repository.rs
     ├── services/              ← Bussnes Logic
@@ -42,4 +42,5 @@ tower-http = { version = "0.6.8", features = ["fs"] }
 tracing = "0.1.44"
 tracing-subscriber = "0.3.23"
 uuid = { version = "1.23.1", features = ["v4"] }
+rust_decimal = { version = "1.41.0", features = ["macros"] }
 ```

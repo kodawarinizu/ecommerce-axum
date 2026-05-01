@@ -4,12 +4,14 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+async-trait = "0.1.89"
 axum = "0.8.9"
 dotenvy = "0.15.7"
 rust_decimal = { version = "1.41.0", features = ["macros"] }
 serde = { version = "1.0.228", features = ["derive"] }
 sqlx = { version = "0.8.6", features = ["postgres", "runtime-tokio", "uuid", "macros"] }
 tera = "1.20.1"
+thiserror = "2.0.18"
 tokio = { version = "1", features = ["full"] }
 tower-http = { version = "0.6.8", features = ["fs"] }
 tracing = "0.1.44"

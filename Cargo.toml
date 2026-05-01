@@ -10,6 +10,7 @@ axum = "0.8.9"
 axum-extra = { version = "0.12.6", features = ["cookie"] }
 dotenvy = "0.15.7"
 jsonwebtoken = "10.3.0"
+regex = "1.12.3"
 reqwest = { version = "0.13.3", features = ["json"] }
 rust_decimal = { version = "1.41.0", features = ["macros", "serde"] }
 serde = { version = "1.0.228", features = ["derive"] }
